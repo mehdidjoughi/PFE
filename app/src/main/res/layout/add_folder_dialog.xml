@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/editDossier"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:layout_marginTop="16dp"
+        android:hint="Dossier"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#bab5b5"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#eeeeee"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"/>
+
+
+    <Button
+        android:id="@+id/annuler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textColor="#605f5f"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:text="Annuler"/>
+
+        <View
+            android:layout_width="1dp"
+            android:background="#bab5b5"
+            android:layout_height="55dp"/>
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#828ec1"
+            android:textStyle="bold"
+            style="@style/Base.Widget.AppCompat.Button.Borderless"
+            android:text="OK"/>
+    </LinearLayout>
+
+</LinearLayout>

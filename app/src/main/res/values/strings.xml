@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">YA Collab</string>
+    <string name="documant">document</string>
+    <string name="contact">Groupes</string>
+    <string name="profile">profile</string>
+
+    <string name="facebook_application_id">1620205021350797</string>
+    <string name="facebook_login_protocol_scheme">fb1620205021350797</string>
+
+</resources>

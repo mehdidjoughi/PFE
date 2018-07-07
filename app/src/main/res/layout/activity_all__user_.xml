@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mehdidjo.myapplication2.All_User_Activity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:theme="@style/MyOverflowButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="#222831"
+        android:background="#eeeeee">
+    </android.support.v7.widget.Toolbar>
+
+
+    <ListView
+        android:id="@+id/allUserList"
+        android:layout_width="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_height="wrap_content">
+
+    </ListView>
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No users"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_centerHorizontal="true"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_above="@id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</RelativeLayout>

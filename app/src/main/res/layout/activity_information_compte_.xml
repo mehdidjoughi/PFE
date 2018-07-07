@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    tools:context="com.example.mehdidjo.myapplication2.Information_compte_Activity">
+
+
+
+    <ImageView
+        android:id="@+id/profile_image2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="110dp"
+        app:srcCompat="@drawable/icon_profile_empty"
+        android:layout_centerHorizontal="true"
+         />
+    <TextView
+        android:textSize="18sp"
+
+        android:layout_below="@id/profile_image2"
+        android:id="@+id/textmessage"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Title"
+        android:layout_marginTop="18dp"
+        android:text="BIENVENUE MEHDI DJOUGHI !"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/textmessage"
+        android:id="@+id/textmessage2"
+        android:text="Nous avons besoin des renseignements suivants afin de fournir des résultats plus précis."
+        android:gravity="center"
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:padding="10dp"
+        android:id="@+id/phone"
+        android:layout_margin="18dp"
+        android:layout_below="@id/textmessage2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile"
+        android:inputType="phone"/>
+    <EditText
+        android:padding="10dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:id="@+id/post"
+        android:layout_below="@id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Poste"
+        android:inputType="text"/>
+    <Button
+        android:id="@+id/done"
+        android:padding="22dp"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="commencer"/>
+
+
+</RelativeLayout>
+
+
